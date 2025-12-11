@@ -14,3 +14,42 @@ SAX = {
 	description_category = diplomatic
 	difficulty = 2
 }
+
+JOE = { # Joseon
+	color = rgb { 26  53  177 }
+	culture_definition = korean_culture
+	religion_definition = confucian
+
+	description_category = diplomatic
+	difficulty = 1
+}
+
+KHA = { # Kharchin
+	color = { 221  93  170 }
+	culture_definition = kharchin_culture
+	religion_definition = tengri
+}
+
+# DRB = { # Dörbet
+# 	color = { 170  93  221 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }
+
+# CRS = { # Choros
+# 	color = { 93  170  221 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }
+
+# KHO = { # Khotgoid
+# 	color = { 93  221  170 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }
+
+# THG = { # Torguud
+# 	color = { 221  170  93 }
+# 	culture_definition = oirat_culture
+# 	religion_definition = tengri
+# }

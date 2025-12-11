@@ -201,12 +201,11 @@ international_organization_manager = {
 		creation_date = 1271.12.18
 		members = { 
 			#Emperor
-			CHI 
+			MNG 
 			#Tributaries
-			CHA DAI
+			CHA DAI JOE SIB HDA HOI ULA DNG JEC JUS NEY YAL WGG YEH JEC JUS NEY YAL WGG HNE SSH KHA
 			#Vassals
-			MMA KOR CHH CDL LJG TIB DUR EVK NAN NVK ORC ORQ SIB SOL UDE ULC HDA HOI ULA YEH DNG HJN 
-			HNE HUL JEC JUS MAO NEY ODO SSH URY YAL WGG WRK
+			MMA CHH CDL LJG   
 			SNP MNZ TAZ HEZ JIZ SYG TMN SSG MLM LNG
 			#Tusi
 			GYT YNG TNQ MCI WMO TSK LGZ KHG BIR MHK MHN MTG MGN MHA MWO MGK YNJ NWU NYZ NLU YJI BZH YAN HQG NNN AGN MLE JSI SPG NGZ
@@ -226,7 +225,7 @@ international_organization_manager = {
 		leader = CHI
 
 		celestial_governor = {
-			KOR
+			JOE # NOTE: Not sure if this is applicable here
 		}
 
 		ruler_term = { character = kublai_khan start_date = 1271.12.18 end_date = 1294.2.18 }
@@ -252,6 +251,28 @@ international_organization_manager = {
 			celestial_authority = 75
 		}
 	}
+
+	#################################################################
+	# 				Four Oirat Confederation						#
+	#################################################################
+
+	# add_international_organization = {
+	# 	type = oirat_confederation
+	# 	creation_date = 1399.1.1
+
+	# 	map_color = rgb { 204 184 177 }
+
+	# 	leader = CRS
+
+	# 	members = { CRS DRB KHO THG }
+	# 	regions = { mongolia_region }
+	# 	areas = { }
+		
+	# 	laws = {  }
+
+	# 	variables = { 
+	# 	}
+	# }
 	
 	#################################################################
 	# 				High Kingship & Lordship of Ireland				#
