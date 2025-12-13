@@ -35,4 +35,5 @@
 	flag = TIM
 	adjective = TIM_ADJ
 	tag = TIM
+	color = map_TIM
 }
