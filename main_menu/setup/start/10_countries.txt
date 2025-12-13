@@ -60629,10 +60629,10 @@ countries = {
 		country_rank = rank_empire
     
 		government = {
-			type = timurid_prince
+			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler_term = { character = tih_shahrukh_mirza start_date = 1409.1.1 } 
-			ruler = tih_shahrukh_mirza
+			ruler_term = { character = tim_shahrukh_mirza start_date = 1409.1.1 } 
+			ruler = tim_shahrukh_mirza
 		}
 
 		accepted_cultures = {
