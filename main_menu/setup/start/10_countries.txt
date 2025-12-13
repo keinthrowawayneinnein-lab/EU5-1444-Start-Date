@@ -60718,7 +60718,10 @@ countries = {
 	
 	TIK = {
 		own_control_core = {
-			kabul
+			kabul andarab kahmard bamyan charikar bagram istalif kohi_safi
+			gandamak jalalabad alishang panjshir asadaban_kunar parun hajiabad
+			gardez logar chak ghazni zarghun_shahr muqur nawah wazakwa maruf
+			chaman arghestan khandahar qalat_ghilji deychopan tarinkot deh_kundi kajran baghran
 		}
     
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
