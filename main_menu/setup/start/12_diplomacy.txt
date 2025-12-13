@@ -109,6 +109,7 @@ diplomacy_manager = {
     dependency = { first = LIT second = VOL subject_type = vassal }
     dependency = { first = LIT second = NSL subject_type = vassal }
     dependency = { first = LIT second = KCH subject_type = vassal }
+    dependency = { first = LIT second = JAG subject_type = vassal }
 
     # Hanseatic League
     dependency = { first = HSA second = LUB subject_type = hanseatic_member }
@@ -172,10 +173,13 @@ diplomacy_manager = {
     #Vassal, Fief Mouvant of France
     dependency = { first = FRA second = FOI subject_type = vassal }
     dependency = { first = FRA second = AMG subject_type = vassal }
+    dependency = { first = AMG second = NEM subject_type = fiefdom }
     dependency = { first = BOU second = FRZ subject_type = fiefdom }
     dependency = { first = FRA second = BAR subject_type = vassal }
     dependency = { first = FRA second = ORL subject_type = vassal }
-    dependency = { first = ORL second = BLS subject_type = vassal }
+    dependency = { first = ORL second = BLS subject_type = appanage }
+    dependency = { first = BLS second = DUO subject_type = appanage }
+    dependency = { first = FRA second = ALR subject_type = vassal }
     dependency = { first = FRA second = AST subject_type = vassal }
     dependency = { first = FRA second = COM subject_type = vassal }
     dependency = { first = FRA second = IJO subject_type = vassal }
@@ -283,7 +287,6 @@ diplomacy_manager = {
     dependency = { first = PAL second = MSB subject_type = vassal }
     dependency = { first = PAL second = ERB subject_type = vassal }
     dependency = { first = AUG second = AGC subject_type = vassal }
-    dependency = { first = LAU second = RTB subject_type = vassal }
     dependency = { first = WUR second = HBR subject_type = vassal }
     dependency = { first = TRI second = PSZ subject_type = vassal }
     dependency = { first = BRA second = BLB subject_type = vassal }
@@ -834,6 +837,7 @@ diplomacy_manager = {
     dependency = { first = TUR second = WAL subject_type = tributary }
 
     dependency = { first = HUN second = TRA subject_type = vassal }
+    dependency = { first = HUN second = SNI subject_type = fiefdom }
 
     dependency = { first = MAM second = CYP subject_type = tributary }
 
