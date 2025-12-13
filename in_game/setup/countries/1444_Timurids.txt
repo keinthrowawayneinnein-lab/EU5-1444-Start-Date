@@ -5,14 +5,6 @@ TIH = {
     culture_definition = khorasani_culture
     religion_definition = sunni
 }
-
-KAK = {
-	color = rgb { 221 193 172 }
-	color2 = rgb { 220 220 220 }
-	culture_definition = touhoku_culture
-	religion_definition = shinto
-}
-
 # TIS: Samarkand
 TIS = {
     color = rgb { 189 0 34 }
@@ -38,7 +30,7 @@ TIF = {
 }
 
 # TIH: Balkh
-TKK = {
+TTK = {
     color = rgb { 224 50 39 }
     color2 = rgb { 255 255 255 }
     culture_definition = khorezmian_culture

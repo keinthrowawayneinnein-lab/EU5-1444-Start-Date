@@ -44,7 +44,7 @@ TIS = { # Samarkand Timurids
 	}		
 }
 
-TKK = { # Balkh Timurids
+TTK = { # Balkh Timurids
 	pattern = "pattern_solid.dds"
 	color1 = hsv360 	{	204	70	55	}
 	color2 = "white"
