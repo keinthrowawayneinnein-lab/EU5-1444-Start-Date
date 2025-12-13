@@ -47266,22 +47266,22 @@ countries = {
 		capital = almaliq
 	}
 
-	TIM = {	#The Timurid tag
-		own_control_core = { }
-		our_cores_conquered_by_others = {}
-		include = "expl_mongols"
-		include = "eurasian_horde_not_present"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			laws = {
-			}
-			privilege = {
-				
-			}
-		}
-		capital = herat
-	}
+	#TIM = {	#The Timurid tag
+	#	own_control_core = { }
+	#	our_cores_conquered_by_others = {}
+	#	include = "expl_mongols"
+	#	include = "eurasian_horde_not_present"
+	#	government = {
+	#		type = monarchy
+	#		heir_selection = cognatic_primogeniture
+	#		laws = {
+	#		}
+	#		privilege = {
+	#			
+	#		}
+	#	}
+	#	capital = herat
+	#}
 
 	MGE = { #The Mongol Empire
 		type = army
@@ -60572,7 +60572,16 @@ countries = {
 			haresabad kharturan sabzevar farumad beyarjomand meyami
 			bastam damghan qumis semnan
 
-			ravar zarand_iran
+			ravar zarand_iran kuhbanan bafq behabad
+			saryazd yazd taft nadushan meybod ardakan
+			bavanat marvast dehshir eqlid abarkuh abadeh
+			harat khabar shahr_e_babak meshkan khatunabad
+			qatruyeh saadatabad sirjan hajjiabad khabr arzu soghan
+			golashkerd kahnuj mardehek
+			rigan fahraj_narmashir marmashir bam rayen
+			zakht jiroft sarduiyeh dowlatabad_esfandaqeh rabor baft
+			ghobeyra shahdad kerman mahan
+			negar baghin rafsanjan anar bahreman dehaj ernan
 		}
 		our_cores_conquered_by_others = {
 			andijan arslanbob gulcha jalalabad_fergana uzkand
