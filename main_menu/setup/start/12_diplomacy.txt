@@ -840,7 +840,7 @@ diplomacy_manager = {
     # ----- TIMURID EMPIRE (1444) ------
     dependency = { first = TIH second = TIS subject_type = appanage }
     dependency = { first = TIH second = TTK subject_type = appanage }
-    dependency = { first = TIH second = TKK subject_type = appanage }
+    dependency = { first = TIH second = TIK subject_type = appanage }
     dependency = { first = TIH second = TIG subject_type = appanage }
     dependency = { first = TIH second = TIF subject_type = appanage }
     dependency = { first = TIH second = TII subject_type = appanage }

@@ -32707,13 +32707,13 @@ countries = {
 			urmia khameneh salmas
 			santeh takht_e_soleyman
 			miyaneh aghkand
-			zanjan mahneshan sarcham sojas
-			bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
 			goroz shusha
 			julfa nakhchivan
 		}
 
 		our_cores_conquered_by_others = {
+			bijar bashqurtaran dehgolan divandarreh ghorveh sohrevard yasukand
+			zanjan mahneshan sarcham sojas
 			rahba anah abu_kemal haditha
 			al_anbar hit ayn_tamr karbala
 			kufa al_udayb qadisiyyah
@@ -33050,9 +33050,11 @@ countries = {
 	#Kelali - KEL
 	KEL = {
 		own_control_core = {
-			asadabad kamyaran malayer muchesh nahavand sonqor
+			kamyaran muchesh
 		}
-
+		our_cores_conquered_by_others = {
+			nahavand sonqor asadabad malayer
+		}
 		include = "expl_middle_east"
 		include = "muslim_tribe_no_coast"
 
@@ -33132,7 +33134,7 @@ countries = {
 	#Rankali - RKL
 	RKL = {
 		own_control_core = {
-			bisotun holeylan kermanshah
+			holeylan kermanshah
 		}
 
 		include = "expl_middle_east"
@@ -56056,11 +56058,10 @@ countries = {
 	BDS = { #Baduspanids
 		own_control_core = {
 			kojur chalus tonekabon
-			rey karaj savojbolagh
 		}
 
-		own_control_integrated = {
-			qazvin
+		our_cores_conquered_by_others = {
+			rey karaj savojbolagh
 		}
 
 		include = "expl_middle_east"
@@ -56276,6 +56277,8 @@ countries = {
 	LCK = { #Khorsidi
 		own_control_core = {
 			khorramabad aleshtar kuhdast pol_dokhtar sarab_dowreh
+		}
+		our_cores_conquered_by_others = {
 			borujerd aligurdaz borborud dorud gerit sibak
 		}
 
@@ -60550,6 +60553,12 @@ countries = {
 	TIH = {
 		own_control_core = {
 			herat isfahan
+
+			faraveh ganlygala jargalan
+			quchan khabushan shirvan_iran bojnord raz samalqan
+			meshkan_khorasan agh_qala azadvar bam_esfarayen shoqan jajarm
+			haresabad kharturan sabzevar farmad beyarjomand meyanu
+			bastam damghan qumis semnan
 		}
     
 		starting_technology_level = 6
@@ -60683,9 +60692,16 @@ countries = {
 	
 	TIG = {
 		own_control_core = {
-			gurgan
+			nardin minudasht aliabad_katul astarabad tammisha mubarakabad incheh_borun etrek gorgan
+			maraveh sarlawuk dehistan
 		}
-    
+		our_cores_conquered_by_others = {
+			faraveh ganlygala jargalan
+			quchan khabushan shirvan_iran bojnord raz samalqan
+			meshkan_khorasan agh_qala azadvar bam_esfarayen shoqan jajarm
+			haresabad kharturan sabzevar farmad beyarjomand meyanu
+			bastam damghan qumis semnan
+		}
 		include = "muslim_monarchy_no_abrahamic_dhimmi"
 		country_rank = rank_duchy
     
@@ -60700,12 +60716,29 @@ countries = {
 		}
     
 		religious_school = maturidi_school 
-		capital = gurgan
+		capital = gorgan
 	}
 	
 	TII = {
 		own_control_core = {
-			qom
+			qom kahak neyasar kashan maranjab aveh saveh
+			khwar eyvanekey damavand rey varamin karaj rahimabad razeqan
+			lasjerd firuzkuh
+			natanz ardestan zavareh nain aqda anarak
+			tudeshk komsheceh murcheh_khvort dowlatabad dehagh
+			yazdukhwast ramsheh qumisha yangabad sohrfiruzan karkevand fereydunshahr
+			nimvar khwansar golpayegan khomeyn mahallat delijan
+			sibak aligurdaz borborud gerit dorud borujerd
+			karaj_abi_dulaf saruk tafresh khondab qorveh_darjazin hamadan kurijan
+			malayer vahvand bisotun asadabad sonqor
+			ghorveh dehgolan bashqurtaran sohrevard yasukand bijar divandarreh
+			sagzabad savojbolagh avaj qazvin takestan abhar qeydar
+			shahrestan_sofla sirdan rudbar shamiram
+			soltaniyeh sojas zanjan mahneshan sarcham
+		}
+
+		our_cores_conquered_by_others = {
+			isfahan
 		}
     
 		include = "muslim_monarchy_no_abrahamic_dhimmi_no_coast"
