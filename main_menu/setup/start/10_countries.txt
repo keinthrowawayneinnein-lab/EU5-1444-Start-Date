@@ -23760,100 +23760,34 @@ countries = {
         # Joseon Korea
         JOE = {
             own_control_core = {
-                ### korea_region
-                #### gwanseo_area
-                ##### seogyeong_province
                 seogyeong jeungsan samhwa junghwa seongcheon yangam
-
-                ##### anbuk_province
                 deokju yeongwon gaeju sukju sunju
-
-                ##### uiju_province
                 uiju sakju seonju gwiju jeongju_jeongju
-
-                ##### ganggye_province
                 ganggye huju chosan huicheon unju
-
-                #### gwandong_area
-                ##### gangneung_province
                 myeongju uljin samcheok goseong tongcheon ingnyeong ulleungdo
-
-                ##### cheorwon_province
                 dongju geumseong hoeyang ichon pyeonggang
-
-                ##### chuncheon_province
                 chunju hongcheon inje nangcheon yanggu
-
-                ##### wonju_province
                 wonju yeongwol pyeongchang jeongseon hoengcheon
-
-                #### yeongnam_area
-                ##### andong_province
                 andong bonghwa yeongcheon mungyeong sangju
-
-                ##### seongju_province
                 seongju taegu gaeryeong uiseong seonsan
-
-                ##### gyeongju_province
                 gyeongju yeongil yeongju boseongbu yeongdeok yeongyang
-
-                ##### jinju_province
                 jinju hadong namhae sacheon geoje geochang hapcheon
-
-                ##### dongnae_province
                 dongnae uian miryang ulju
-
-                #### gyeonggi_area
-                ##### kaesong_province
                 kaesong papyeong yangju pocheon gapyeong inju jipyeong
-
-                ##### hanseong_province
                 namgyeong gwangju suwon icheon
-
-                #### honam_area
-                ##### jeonju_province
                 jeonju gimje jinan mupung
-
-                ##### naju_province
                 naju haenam jindo jangheung yeonggam muan hwasun hekusando yeonggwang
-
-                ##### namwon_province
                 namwon imsil jeongeup musong
-
-                ##### suncheon_province
                 suncheon boseong heungyang gokseong
-
-                ##### tamna_province
                 tamna seongwi
-
-                #### haeseo_area
-                ##### haeju_province
                 haeju ongjin jangyeon baekcheon cheongsong pungcheon jaeryeong
-
-                ##### hwangju_province
                 hwangju bongju anak tosan pyeongju suan gokju
-
-                #### hoseo_area
-                ##### chungju_province
                 chungju eumseong goeju jecheon danyang_korea
-
-                ##### gongju_province
                 gongju yeonsan jinjam yeongdong cheongju cheonan
-
-                ##### hongju_province
                 hongju boryeong hansan seosan aju
-
-                #### gwanbuk_area
-                ##### gapsan_province
                 gapsan samsu musan
-
-                ##### gyongseong_province
                 gyeongseong buryeong gilju myeongcheon onseong heoryeong
-
-                ##### hamheung_province
                 hamheung dancheon bukcheong jangjin
-
-                ##### hwaju_province
                 hwaju munju deungju north_jeongju goju
             }
 
@@ -29824,6 +29758,11 @@ countries = {
                 bishreit dalay doloodyn_gobi ikh_narttin_chuluu
                 saikhandulaan ulaanbadrakh
                 urga
+                tura chit uldurga kuenga nurchuu uryum
+
+                enhe_hada jiliu lower_gazimur merelka upper_gazimur urov
+
+                abagaita gegen hasar khirkhira talman_boorj
             }
 
             include = "far_east_asia_monarchy_not_present"
@@ -29977,7 +29916,7 @@ countries = {
                 bazhai_duyun dushan
                 bafan
                 qingjiang_liping taigong
-                ganzhou hongshui sanjiaocheng shandan yongchang_ganzhou
+                ganzhou hongshui shandan yongchang_ganzhou
                 anyuan datong_xining gulang gushan jinchang xiliang haomen nianbo xining baiting zhuanglang zhenfan
                 baoji fengxiang fufeng linyou longzhou_fengxiang meixian qianyang qishan longan
                 chengzhou dingxi fuqiang longxi_gongchang xihe_huizhou huizhou_gongchang huizhou jiezhou liangdang ningyuan_gongchang baimaguan tongwei qinan chengji sancha qingshui zhangxian
@@ -48899,6 +48838,21 @@ countries = {
             capital = yangguan
         }
 
+        HUI = {
+            # Hui
+            our_cores_conquered_by_others = {
+                jingning shuiluo longde sanchuan kaycheng_guyuan xianzhou
+                zhenrong yingli mingsha lingzhou lingwu ningxia dingyuan_lingzhou
+            }
+            starting_technology_level = 3
+            government = {
+                heir_selection = tribal_oldest_male
+            }
+            country_rank = rank_county
+            court_language = mongolian_language
+            capital = ningxia
+        }
+
         MNL = {
             #Mangalai
             our_cores_conquered_by_others = {
@@ -49387,6 +49341,8 @@ countries = {
             #Amdo
             own_control_core = {
                 chabcha buha caka dulan dungkar_amdo guolimu qardam amnye_machen quge sailahai zeku muxihe
+
+                sanjiaocheng
             }
 
             include = "asia_advanced_no_pagan_tribe"

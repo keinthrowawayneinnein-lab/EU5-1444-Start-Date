@@ -552,6 +552,10 @@ diplomacy_manager = {
     dependency = { first = MNG second = SRY subject_type = tributary }
     dependency = { first = MNG second = TUO subject_type = tributary }
 
+    # Tibetan Tributes
+    dependency = { first = MNG second = GOL subject_type = tributary }
+    dependency = { first = MNG second = AMD subject_type = tributary }
+
     # Vassals and Tusi
     dependency = { first = MNG second = MMA subject_type = vassal }
     dependency = { first = MNG second = SNP subject_type = vassal }

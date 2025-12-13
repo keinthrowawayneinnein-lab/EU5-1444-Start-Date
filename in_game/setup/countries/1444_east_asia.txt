@@ -85,6 +85,15 @@ OIR = {
     description_category = military
 }
 
+HUI = {
+    # Hui
+    color = map_hui_muslim
+
+    culture_definition = hui_muslim_culture
+    religion_definition = sunni
+    description_category = diplomatic
+}
+
 # DRB = { # Dörbet
 # 	color = { 170  93  221 }
 # 	culture_definition = oirat_culture
