@@ -4129,7 +4129,7 @@ AFG_f = {
     flag = AFG
     adjective = AFG_ADJ
     tag = AFG
-    color = rgb { 58 174 61 }
+    color = desaturated_green
 
     provinces = {
         kabul_province
