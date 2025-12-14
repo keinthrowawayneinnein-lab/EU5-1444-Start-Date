@@ -30822,6 +30822,8 @@ countries = {
                 gaizhou fuzhou_liaoyang jinzhou_dalian xiuyan zhuanghe
                 jinzhou_liaoyang dalinghe haizhou_liaoyang ningyuan_jinzhou
                 qiantun
+
+                ningpu lingfang xuanhua_nanning
             }
             our_cores_conquered_by_others = { }
             include = "far_east_asia_monarchy"
